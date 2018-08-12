@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F41141DA892005CCAAA4AC0 /* libPods-TestRACTupleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E724660FE5BCE80B8E8733 /* libPods-TestRACTupleTests.a */; };
 		5A11C08921202DA7007B6A48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A11C08821202DA7007B6A48 /* AppDelegate.m */; };
 		5A11C08C21202DA7007B6A48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A11C08B21202DA7007B6A48 /* ViewController.m */; };
 		5A11C08F21202DA7007B6A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A11C08D21202DA7007B6A48 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12E724660FE5BCE80B8E8733 /* libPods-TestRACTupleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRACTupleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A11C08421202DA7007B6A48 /* TestRACTuple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRACTuple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A11C08721202DA7007B6A48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A11C08821202DA7007B6A48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		5A11C0A721202DA8007B6A48 /* TestRACTupleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRACTupleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A11C0AB21202DA8007B6A48 /* TestRACTupleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRACTupleUITests.m; sourceTree = "<group>"; };
 		5A11C0AD21202DA8007B6A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23EF3DDB4F2B4E5BA2B1BDC /* Pods-TestRACTupleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRACTupleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestRACTupleTests/Pods-TestRACTupleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6F827379ABF2F33D511790C /* Pods-TestRACTupleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRACTupleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestRACTupleTests/Pods-TestRACTupleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F41141DA892005CCAAA4AC0 /* libPods-TestRACTupleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0269F8E8C09C4CDCA21B5ED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12E724660FE5BCE80B8E8733 /* libPods-TestRACTupleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C79C6B9B30A7C4AED7F8CCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E23EF3DDB4F2B4E5BA2B1BDC /* Pods-TestRACTupleTests.debug.xcconfig */,
+				F6F827379ABF2F33D511790C /* Pods-TestRACTupleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5A11C07B21202DA7007B6A48 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				5A11C09F21202DA8007B6A48 /* TestRACTupleTests */,
 				5A11C0AA21202DA8007B6A48 /* TestRACTupleUITests */,
 				5A11C08521202DA7007B6A48 /* Products */,
+				2C79C6B9B30A7C4AED7F8CCB /* Pods */,
+				0269F8E8C09C4CDCA21B5ED7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A11C0B321202DA8007B6A48 /* Build configuration list for PBXNativeTarget "TestRACTupleTests" */;
 			buildPhases = (
+				EC604B236E61C9E00CF95D31 /* [CP] Check Pods Manifest.lock */,
 				5A11C09821202DA8007B6A48 /* Sources */,
 				5A11C09921202DA8007B6A48 /* Frameworks */,
 				5A11C09A21202DA8007B6A48 /* Resources */,
@@ -256,6 +281,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC604B236E61C9E00CF95D31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestRACTupleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A11C08021202DA7007B6A48 /* Sources */ = {
@@ -463,6 +509,7 @@
 		};
 		5A11C0B421202DA8007B6A48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E23EF3DDB4F2B4E5BA2B1BDC /* Pods-TestRACTupleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +528,7 @@
 		};
 		5A11C0B521202DA8007B6A48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F827379ABF2F33D511790C /* Pods-TestRACTupleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
